@@ -4,6 +4,7 @@ A Clojure library with some utility functions for working with xml and zippers.
 
 ## Usage
 Available from clojars. Add the following to your project dependencies:
+
 [![Clojars Project](https://img.shields.io/clojars/v/azuzu-xml.svg)](https://clojars.org/azuzu-xml)
 
 
