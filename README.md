@@ -9,7 +9,7 @@ Most of the code is based on examples from this excellent article:
 Available from clojars. Add the following to your project dependencies:
 
 ```
-[azuzu-xml "0.1.0-SNAPSHOT"]
+[azuzu-xml "0.2.0-SNAPSHOT"]
 ```
 
 ## License
