@@ -49,3 +49,11 @@
   "Returns the tag that the zipper is pointing to, as well as its nth child, as a string"
   [zipper n]
   [(tag zipper) (nth (children zipper) n)])
+
+
+(defn first-tag [xml]
+  (->> xml zip/xml-zip zip/children first))
+
+(defn children-tags [xml]
+  (->> xml zip/xml-zip zip/children))
+
